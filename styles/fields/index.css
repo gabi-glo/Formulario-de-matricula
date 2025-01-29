@@ -28,21 +28,19 @@ label {
   input[type="date"] {
     position: relative;
     &::-webkit-file-calendar-picker-indicator {
-     opacity: 0;
+      opacity: 0;
     }
-     
-    &::before {
-      content: "";
-      position: absolute;
-      background: url(../../assets/icons/calendar-03.svg)
-      center/contain;
-      right: 1rem;
-      width: 1.24rem;
-      height: 1.24rem;
+     &::before {
+    position: absolute;
+     background: url(../../assets/icons/calendar-03.svg)
+     center/contain;
+     right: 1rem;
+     width: 1.25;
+     height: 1.25;
 
-      top: 50%;
-      transform: translate(-50%);
-    }
+     top: 50%;
+     transform: translate(-50%);
+  }
   }
 
   select {
