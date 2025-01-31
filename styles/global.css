@@ -41,7 +41,9 @@ img {
 
 .flex {
   
-  display:flex;
+  display:block;
+  align-items: center;
+  
  
 }
 
