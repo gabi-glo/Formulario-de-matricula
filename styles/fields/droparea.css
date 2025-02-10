@@ -1,6 +1,6 @@
 .dropzone {
   border: 1px  dashed var(--stroke-default);
-  border-right: .25rem;
+  border-radius: .25rem;
 
   display: grid;
   justify-items: center;
